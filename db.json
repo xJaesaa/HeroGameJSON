@@ -1,0 +1,38 @@
+{
+  "heroes":[
+    {
+      "id":1,
+      "name": "Captain Swinburne",
+      "diceMin": 2,
+      "diceMax": 6,
+      "usesLeft": 6
+    },
+    {
+      "id":2,
+      "name": "John Carmack",
+      "diceMin": 1,
+      "diceMax": 8,
+      "usesLeft": 4
+    }
+   ],
+  "villains":[
+    {
+      "name": "Russell Sprout",
+      "health": 5,
+      "id": 1
+    },
+    {
+      "name": "Due Date Jenny",
+      "health": 6,
+      "id": 2
+    },
+    {
+      "name": "Taxation Tony",
+      "health": 6,
+      "id": 3
+    }
+  ],
+    "profile":{
+      "name":"xJaesaa"
+    }
+}
