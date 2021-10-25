@@ -6,7 +6,8 @@
       "diceMin": 2,
       "diceMax": 6,
       "usesLeft": 6,
-      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_malePerson_idle.png"
+      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_malePerson_idle.png",
+      "selected": false
     },
     {
       "id":2,
@@ -14,7 +15,8 @@
       "diceMin": 1,
       "diceMax": 8,
       "usesLeft": 4,
-      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_maleAdventurer_idle.png"
+      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_maleAdventurer_idle.png",
+      "selected": false
     }
    ],
   "villains":[
@@ -22,19 +24,22 @@
       "name": "Russell Sprout",
       "health": 5,
       "id": 1,
-      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/barnacle.png"
+      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/barnacle.png",
+      "selected": false
     },
     {
       "name": "Due Date Jenny",
       "health": 6,
       "id": 2,
-      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/slimeBlue.png"
+      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/slimeBlue.png",
+      "selected": false
     },
     {
       "name": "Taxation Tony",
       "health": 6,
       "id": 3,
-      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/wormGreen.png"
+      "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/wormGreen.png",
+      "selected": false
     }
   ],
     "profile":{
