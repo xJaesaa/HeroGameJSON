@@ -1,7 +1,7 @@
 {
-  "heroes":[
+  "heroes": [
     {
-      "id":1,
+      "id": 1,
       "name": "Captain Swinburne",
       "diceMin": 2,
       "diceMax": 6,
@@ -10,7 +10,7 @@
       "selected": false
     },
     {
-      "id":2,
+      "id": 2,
       "name": "John Carmack",
       "diceMin": 1,
       "diceMax": 8,
@@ -18,8 +18,8 @@
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_maleAdventurer_idle.png",
       "selected": false
     }
-   ],
-  "villains":[
+  ],
+  "villains": [
     {
       "name": "Russell Sprout",
       "health": 5,
@@ -41,8 +41,18 @@
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/wormGreen.png",
       "selected": false
     }
-  ]
-    "profile":{
-      "name":"xJaesaa"
+  ],
+  "dateTime": [
+    {
+      "dateTime": "6/15/15, 9:03 AM",
+      "winner": "Villains"
+    },
+    {
+      "dateTime": "11/15/21, 6:26 PM",
+      "winner": "Heroes"
     }
+  ],
+  "profile": {
+    "name": "xJaesaa"
+  }
 }
