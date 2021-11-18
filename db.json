@@ -5,7 +5,7 @@
       "name": "Captain Swinburne",
       "diceMin": 2,
       "diceMax": 6,
-      "uses": 6,
+      "uses": 4,
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_malePerson_idle.png",
       "selected": false
     },
@@ -14,7 +14,7 @@
       "name": "John Carmack",
       "diceMin": 1,
       "diceMax": 8,
-      "uses": 4,
+      "uses": 3,
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/character_maleAdventurer_idle.png",
       "selected": false
     }
@@ -22,7 +22,7 @@
   "villains": [
     {
       "name": "Russell Sprout",
-      "health": 5,
+      "health": 7,
       "id": 1,
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/barnacle.png",
       "selected": false
@@ -36,7 +36,7 @@
     },
     {
       "name": "Taxation Tony",
-      "health": 6,
+      "health": 8,
       "id": 3,
       "image": "https://raw.githubusercontent.com/xJaesaa/HeroGameJSON/main/wormGreen.png",
       "selected": false
