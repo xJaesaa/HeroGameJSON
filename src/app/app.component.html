@@ -1,0 +1,61 @@
+<!-- Hero Select -->
+<h2>Selected Hero: {{ selectedHero ? selectedHero.name : '' }}</h2>
+<div class="hero-container">
+  <div
+    class="heroBox"
+    *ngFor="let hero of heroList"
+    (click)="onHeroSelect(hero)"
+    [class.selected]="hero === selectedHero"
+    [class.unavailable]="hero === unavailableHero"
+  >
+    <img src="{{ hero.image }}" />
+    <h4>{{ hero.name }}</h4>
+    <p>Dice: {{ hero.diceMin }}-{{ hero.diceMax }}</p>
+    <p>Uses Left: {{ hero.uses }}</p>
+  </div>
+</div>
+<hr />
+<!-- Hero Select -->
+
+<br />
+
+<!-- Villain Select -->
+<div class="villain-container">
+  <div
+    class="villain-box"
+    *ngFor="let villain of villainList"
+    (click)="onVillainSelect(villain)"
+    [class.selected]="villain === selectedVillain"
+    [class.unavailable]="villain === unavailableVillain"
+  >
+    <img src="{{ villain.image }}" />
+    <h4>{{ villain.name }}</h4>
+    <p>Health: {{ villain.health }}</p>
+  </div>
+</div>
+<h2>Selected Villain: {{ selectedVillain ? selectedVillain.name : '' }}</h2>
+
+<hr />
+<!-- Villain Select -->
+
+<br />
+
+<!-- Battle -->
+<div class="battle">
+  {{ selectedHero ? selectedHero.name : 'N/A' }} <span>attacks</span>
+  {{ selectedVillain ? selectedVillain.name : 'N/A' }} <span>for</span>
+  {{ rollValue ? rollValue : 'N/A' }}
+</div>
+<br />
+<button (click)="rollClick()">Roll</button>
+<!-- Battle -->
+
+<br /><br />
+
+<!-- Dates -->
+<div class="date-container">
+  <div class="dates-box" *ngFor="let dates of datesList">
+    <p>{{ dates.dateTime }}, {{ dates.winner }} won</p>
+  </div>
+</div>
+<!-- Dates -->

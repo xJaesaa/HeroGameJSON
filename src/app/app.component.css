@@ -1,0 +1,78 @@
+.dates-box p {
+  width: 50.1%;
+  float: left;
+  padding: 0%;
+  margin: 0;
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+.heroBox {
+  margin: 10px;
+  border: 1px solid;
+  padding: 5px;
+  min-width: 100px;
+  user-select: none;
+  transition: 0.1s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heroBox img {
+  vertical-align: middle;
+}
+.heroBox:hover {
+  background: black;
+  color: white;
+}
+.heroBox.selected {
+  background-color: limegreen;
+  color: black;
+}
+.heroBox.selected:hover {
+  background-color: green;
+  color: white;
+}
+.villain-container {
+  display: flex;
+  flex-direction: row;
+}
+.villain-box {
+  margin: 10px;
+  border: 1px solid;
+  padding: 5px;
+  min-width: 100px;
+  user-select: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.villain-box img {
+  vertical-align: middle;
+}
+.villain-box:hover {
+  background: black;
+  color: white;
+}
+.villain-box.selected {
+  background-color: red;
+  color: black;
+}
+.villain-box.selected:hover {
+  background-color: darkred;
+  color: white;
+}
+.villain-box.unavailable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.battle {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.battle span {
+  font-weight: normal;
+}
+.dates-box {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
